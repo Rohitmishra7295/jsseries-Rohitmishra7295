@@ -1,0 +1,17 @@
+"use strict" ;  //treate all js code as newer version
+
+//alert("hi! this is danger for you.") -> we can use it in document not nodejs engine
+
+console.log("label")
+
+let foo = 42; // foo is now a number
+console.log(foo);
+
+foo = "bar"; // foo is now a string
+console.log(foo);
+
+foo = true; // foo is now a boolean
+console.log(foo);
+
+console.log(42 / +0); // Infinity
+console.log(42 / -0); // -Infinity
